@@ -14,6 +14,7 @@ def country_info(name):
 @click.command()
 @click.argument('name')
 def main(name):
+
     """A little tool that shows you the current information in a COUNTRY your choice.
     Provide the country name!"""
     country = country_info(name)
